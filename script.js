@@ -30,7 +30,7 @@ sumButton.addEventListener('click', () => {
     sum += values[i];
   }
 
-  resultDiv1.innerHTML = `The sum of the numbers between ${startLetter} and ${endLetter} is ${sum}.`;
+  resultDiv1.innerHTML = `The amount of exp needed from ${startLetter} to ${endLetter} is ${sum}.`;
   multiplyButton.disabled = false;
   sumButton.disabled = false;
 });

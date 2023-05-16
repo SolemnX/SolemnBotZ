@@ -5,6 +5,12 @@ const resultDiv1 = document.getElementById('result1');
 const resultDiv2 = document.getElementById('result2');
 
 let sum = 0;
+#result1::after,
+#result2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 sumButton.addEventListener('click', () => {
   const startLetter = document.getElementById('start-letter').value.toUpperCase();

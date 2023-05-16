@@ -18,7 +18,7 @@ sumButton.addEventListener('click', () => {
   const endIndex = letters.indexOf(endLetter);
 
   if (startIndex < 0 || endIndex < 0) {
-    resultDiv.innerHTML = 'Invalid input. Please enter valid letters.';
+    resultDiv.innerHTML = 'Invalid input. Please enter valid numbers.';
     return;
   }
 
